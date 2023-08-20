@@ -1,0 +1,234 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("C:\Users\Lenovo\Downloads\Flight_Reservation\pexels-tanathip-rattanatum-2026324-2.jpg");
+}
+.container {
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+  border: 2px;
+  border-radius: 5px;
+  border-color: blueviolet;
+  
+}
+h2 {
+  text-align: center;
+}
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;}
+input[type="button"] {
+  width: 47%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: purple;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+input[type="submit"] {
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: plum;
+}
+input[type="reset"] {
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+
+.navbar{
+  background-color: purple;
+  border-radius: 5px;
+  display:block;
+}
+
+.navbar ul{
+  overflow: auto;
+}
+
+.navbar li{
+  color: purple;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  float: left;
+  list-style-type:none;
+  color: azure;
+}
+
+.navbar li:hover{
+  background-color: plum;
+}
+
+.navbar li a{
+  padding: 7px 7px;
+  color: azure;
+  text-decoration: none;
+  margin: 10px 15px;
+}
+
+.container_two {
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+  border:2cm;
+  border-radius: 5px;
+  
+}
+
+input[type="button"]:hover {
+  background-color: plum;
+}
+
+button{
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button:hover{
+  background-color: plum;
+}
+
+.welcomenote{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+  border: 2px;
+  border-radius: 5px;
+  border-color: blueviolet;
+}
+
+.button2{
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+}
+
+.button2:hover{
+  background-color: plum;
+}
+
+.discoverheading{
+  display:flexbox;
+  align-items: center;
+  grid-template-columns: 1fr 0.5fr 1fr;
+  column-gap: 1px;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+  border:2cm;
+  border-radius: 5px;
+
+}
+
+span{
+  padding: 10px;
+}
+
+.flightfind{
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+  border: 2px;
+  border-radius: 5px;
+  border-color: blueviolet;
+
+}
+
+
+.flightdisplay{
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+  border: 2px;
+  border-radius: 5px;
+  border-color: blueviolet;
+}
+
+.reservationconfirm{
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+  border: 2px;
+  border-radius: 5px;
+  border-color: blueviolet;
+}
+
+ th, td {
+  background-color: purple;
+  border-collapse: collapse;
+  border-radius: 5px;
+}
+
+td {
+  background-color: plum;
+  border-collapse: collapse;
+  border-radius: 5px;
+}
+
+.detailspassengers{
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+  border: 2px;
+  border-radius: 5px;
+  border-color: blueviolet;
+}
+
+button {
+  width: 47%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: purple;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+button:hover {
+  background-color: plum;
+}
